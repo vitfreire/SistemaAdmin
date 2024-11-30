@@ -29,15 +29,10 @@ Certifique-se de ter as ferramentas instaladas:
 ## **Passo a Passo para Instalação**
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/vitfreire/SistemaAdmin.git
    ```
 
-2. **Acesse o diretório do projeto:**
-   ```bash
-   cd nome-do-repositorio
-   ```
-
-3. **Crie e ative o ambiente virtual:**
+2. **Crie e ative o ambiente virtual:**
    - No Windows:
      ```bash
      python -m venv env
@@ -49,21 +44,21 @@ Certifique-se de ter as ferramentas instaladas:
      source env/bin/activate
      ```
 
-4. **Instale as dependências do projeto:**
+3. **Instale as dependências do projeto:**
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Configure o banco de dados e aplique as migrações:**
+4. **Configure o banco de dados e aplique as migrações:**
    ```bash
    python manage.py migrate
    ```
 
-6. **Inicie o servidor local:**
+5. **Inicie o servidor local:**
    ```bash
    python manage.py runserver
    ```
 
-7. **Acesse o projeto no navegador:**
+6. **Acesse o projeto no navegador:**
    Abra o endereço [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
