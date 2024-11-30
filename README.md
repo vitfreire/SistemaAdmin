@@ -1,6 +1,4 @@
-Segue o README atualizado com as informações solicitadas:
 
----
 
 # **Projeto Django - Desenvolvimento Back-End**
 
